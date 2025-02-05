@@ -4,7 +4,7 @@ import { addBug, removeBug, updateBug } from "../redux/reducer/bugSlice";
 
 const BugTracker = () => {
   const [bugDesc, setBugDesc] = useState("");
-  const bugs = useSelector((state) => state.bug);
+  const bugs = useSelector((state) => state.bugs);
   const dispatch = useDispatch();
 
   return (

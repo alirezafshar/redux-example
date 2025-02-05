@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 let bugId = 0;
 
 const bugSlice = createSlice({
-  name: "bug",
+  name: "bugs",
   initialState: [],
   reducers: {
     addBug: (state, action) => {
